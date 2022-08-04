@@ -4,9 +4,9 @@ import Login from "../app/pages/Login/Login";
 
 function Routing() {
   return (
-    <BrowserRouter>
+  <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Login />} />
+      <Route index path="/" element={<Login />} />
       <Route path="/home" element={<Home />} />
     </Routes>
   </BrowserRouter>
